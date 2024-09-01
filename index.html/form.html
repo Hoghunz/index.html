@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Page</title>
+    <link rel="stylesheet" href="/css/form.css">
+</head>
+
+<body>
+    <br>
+    <nav style="text-align: center;">
+        <a href="index.html">Home</a>
+        <a href="media.html">Media</a>
+        <a href="table.html">Table</a>
+    </nav>
+    <header class="header">
+        <img src="Assets/altschool_africa-900x0.png" alt="Alt School Logo" width="100">
+    </header>
+    <p style="text-align: center;">
+        Already an AltSchooler?
+        <a href="https://learn.altschoolafrica.com/my-account-2/#login" style="text-decoration: none;"><strong
+                style="color: blue;">Sign In</strong></a>
+    </p>
+    <section>
+        <h2 style="color: blue; font-weight: bolder;">SIGN UP</h2>
+        <p>Take the Next Step to Apply To AltSchool Africa </p>
+    </section>
+    <div class="container">
+        <form class="form">
+            <div class="formgroup">
+                <label for="Fname">First Name</label>
+                <input type="text" name="Fname" id="Fname" placeholder="Enter First Name" required>
+            </div>
+            <div class="formgroup">
+                <label for="Lname">Last Name</label>
+                <input type="text" name="Lname" id="Lname" placeholder="Enter Last Name" required>
+            </div>
+            <div class="formgroup">
+                <label for="Gender">Gender</label>
+                <select name="Gender" id="Gender">
+                    <option value="" disabled="" selected="" hidden="">Select gender</option>
+                    <option value="M">Male</option>
+                    <option value="F">Female</option>
+                </select>
+            </div>
+            <div class="formgroup">
+                <label for="DOB">Date Of Birth</label>
+                <input type="date" name="DOB" id="DOB">
+            </div>
+            <div class="formgroup">
+                <label for="Email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Enter email address" required>
+            </div>
+            <div class="formgroup">
+                <label for="phone">Phone Number</label>
+                <input type="tel" name="tel" id="tel" placeholder="+234123456789" required>
+            </div>
+            <div class="formgroup">
+                <label for="Country">Country</label>
+                <select name="Country" id="Country">
+                    <option value="" disabled="" selected="" hidden="">Select Country</option>
+                    <option value="Nig">Nigeria</option>
+                    <option value="UK">United Kingdom</option>
+                    <option value="US">United States</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+            <div class="formgroup">
+                <label for="state">State</label>
+                <input type="tel" name="state" id="tel" placeholder="Enter your State of Residence" required>
+            </div>
+            <div class="formgroup">
+                <label for="info">How did you hear about us</label>
+                <select name="info" id="info">
+                    <option value="" disabled="" selected="" hidden="">Select Channel</option>
+                    <option value="IG">Instagram</option>
+                    <option value="X">Twitter/X</option>
+                    <option value="Facebook">Facebook</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+            <div class="formgroup">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" placeholder="Enter Password" required>
+            </div>
+            <div class="formgroup">
+                <label for="confirm-password">Confirm Password</label>
+                <input type="password" name="confirm-password" id="confirm-password" placeholder="Confirm Password"
+                    required>
+            </div>
+            <p>
+                " By clicking Submit, I agree to the "
+                <a href="terms of use.html" target="_blank">Terms of Use</a>
+                " and acknowledge that I have read the"
+                <a href="privacy policy.html" target="_blank">Privacy Policy</a>
+            </p>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+<div class="notranslate" style="position: absolute; top: 0; right:0;" id="vd-root-d19608294"></div>
+
+</html>
